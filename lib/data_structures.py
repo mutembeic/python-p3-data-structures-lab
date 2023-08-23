@@ -51,6 +51,6 @@ def get_average_heat_level(spicy_foods):
 
 
 def create_spicy_food(spicy_foods, spicy_food):
-    new_spicy_foods = spicy_foods.copy()  # Create a copy of the original list to avoid modifying it
+    new_spicy_foods = spicy_foods.copy()   
     new_spicy_foods.append(spicy_food)
     return new_spicy_foods
